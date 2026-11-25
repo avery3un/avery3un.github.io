@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="400" height="400" viewBox="0 0 400 400">
+<defs><linearGradient id="g" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#FFE0B2"/><stop offset="1" stop-color="#FF8A65"/></linearGradient></defs>
+<rect width="400" height="400" fill="url(#g)"/>
+<g fill="#fff" fill-opacity=".55"><circle cx="140" cy="170" r="42"/><circle cx="260" cy="170" r="42"/><path d="M70 330c0-60 32-100 70-100s70 40 70 100zM190 330c0-60 32-100 70-100s70 40 70 100z"/></g>
+<text x="200" y="380" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-size="22" fill="#fff">group photo 2</text>
+</svg>

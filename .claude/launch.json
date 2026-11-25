@@ -1,0 +1,11 @@
+{
+  "version": "0.0.1",
+  "configurations": [
+    {
+      "name": "site",
+      "runtimeExecutable": "python3",
+      "runtimeArgs": ["/private/tmp/claude-502/-Users-sh-Library-Application-Support-Claude-scratch-workspaces-cf801a07-15d3-4a3a-890d-183ef17cdc53-5f0bd26c-014b-4ff1-8d0a-a00f4827363b-scratch-2026-11-20-326d5b/72c731b5-88cf-476e-93b0-67de09967a8d/scratchpad/pages_server.py", "/Users/sh/Desktop/myweb", "8417"],
+      "port": 8417
+    }
+  ]
+}

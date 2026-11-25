@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Avery Sun</title>
+  <!--
+    GitHub Pages 只认识真实存在的文件。
+    当有人直接打开 /about、/work、/play 时，GitHub 会显示这个 404 页面，
+    下面这段代码会马上把他们送回首页，并告诉首页要显示哪个板块。
+    想加新页面时，把名字加到下面的 (about|work|play) 里。
+  -->
+  <script>
+    (function () {
+      var m = location.pathname.match(/^(.*?\/)(about|work|play)\/?$/);
+      if (m) {
+        location.replace(m[1] + '?p=' + m[2] + location.hash);
+      }
+    })();
+  </script>
+  <style>
+    body { margin: 0; min-height: 100vh; display: flex; align-items: center; justify-content: center;
+           font-family: -apple-system, BlinkMacSystemFont, "Inter", Helvetica, Arial, sans-serif;
+           color: #1b1b1b; background: #fff; text-align: center; }
+    h1 { font-size: 3rem; letter-spacing: -0.04em; margin: 0 0 8px; }
+    p { color: #9a9a98; margin: 0 0 24px; }
+    a { display: inline-block; padding: 8px 18px; border-radius: 999px; background: #f1f1ef;
+        color: #1b1b1b; text-decoration: none; font-weight: 500; }
+  </style>
+</head>
+<body>
+  <main>
+    <h1>404</h1>
+    <p>This page wandered off.</p>
+    <a href="/">back home</a>
+  </main>
+</body>
+</html>
