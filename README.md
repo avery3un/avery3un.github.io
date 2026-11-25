@@ -39,3 +39,9 @@
 - **加一首歌**：把封面放进 `images/play/music/`，打开 `data/music.js`，复制一段 `{ ... },` 粘贴进去，改封面路径、歌名、歌手、Spotify 链接
 - **加一部电影**：把海报放进 `images/play/movies/`，打开 `data/movies.js`，复制一段改海报路径、片名、导演、年份、短评
 - **加一张朋友照片**：把图片放进 `images/play/friends/`，打开 `data/friends.js`，复制一段改图片路径；透明背景的剪影写 `type: "cutout"`，合照写 `type: "photo"`
+
+## 上线（GitHub Pages）
+- 线上网址：https://avery3un.github.io
+- 仓库：https://github.com/avery3un/avery3un.github.io
+- 改完网站后，跟 Claude 说一句「帮我更新上线」即可（会提交改动并推送到 GitHub，1–2 分钟后线上自动更新）。
+- `_originals/` 里是压缩前的原图备份，不会上传。
